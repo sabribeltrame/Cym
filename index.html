@@ -1,0 +1,55 @@
+<html>
+  
+  <head>
+  <header> 
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.36/Tone.js">
+    </script>
+  </header> 
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  
+  <body>
+    
+      
+   
+    <h1> PIANITO </h1> 
+    
+<ul class="teclas-piano">
+     <li class="tecla blanca" onclick="tocar('C4')"</li>
+     <li class="tecla negra" onclick="tocar('C#4')"</li>
+     <li class="tecla blanca"onclick="tocar('D4')" </li>
+     <li class="tecla negra" onclick="tocar('D#4')"</li>
+     <li class="tecla blanca" onclick="tocar('E4')" </li>
+     <li class="tecla blanca" onclick="tocar('F4')" </li>
+     <li class="tecla negra" onclick="tocar('F#4')"</li>
+     <li class="tecla blanca" onclick="tocar('G4')" </li>
+     <li class="tecla negra" onclick="tocar('G#4')" </li>
+     <li class="tecla blanca" onclick="tocar('A4')"</li>
+     <li class="tecla negra" onclick="tocar('A#4')"</li>
+     <li class="tecla blanca" onclick="tocar('B4')"</li>
+ </ul>
+
+    <div class= "contenedor-volumen" </div>
+  <h2> VOLUMEN </h2>
+  <select name ="volumen" id="volumen" onchange="cambiarVolumen()">
+    <option value= "-30">-30</option>
+    <option value= "-20">-20</option>
+    <option value= "-10">-10</option>
+    <option value= "0">0</option>
+    <option value= "10">10</option>
+    <option value= "20">20</option>
+    <option value= "30">30</option>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.36/Tone.js"></script>
+ </body>
+
+</html>

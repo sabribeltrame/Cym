@@ -1,0 +1,58 @@
+body {
+    background: radial-gradient(circle,#D3C0FF, #FFC0C0 , #FFFDC0);
+    min-height: 100vh; /* Establece el alto minimo del body al 100% del alto de la ventana */
+  
+  }
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 60px;
+  }
+  
+  .teclas-piano .negra {
+    z-index: 1; /* superposición de las teclas negras */
+    width: 44px; /* ancho */
+    height: 140px; /* altura */
+    margin: 0 -22px 0 -22px;
+    background: black;
+    border-radius: 8px; /* para redondear las esquinas */
+  }
+  
+  .teclas-piano .blanca {
+    height: 230px;
+    width: 70px;
+    border-radius: 8px; 
+    border: 1px solid; /* agrega un borde */
+    background: white;
+    box-shadow: 10px 18px 15px rgba(0, 0, 0, 0.9); /* Sombras */
+  }
+  .teclas-piano {
+    display: flex; /* disposición de un elemento, flex es que sea flexible segun un diseño llamado flexbox */
+    list-style: none; /* para que no aparezcan las viñetas */
+    margin-top: 30px;
+    margin-left: 450px;
+  }
+  
+  .contenedor-volumen {
+    width: 160px; 
+    height: 120px; 
+    font-family: 'Tilt Prism', cursive;
+    font-size: 25px;  
+    color: black;
+    text-align:center;  
+    margin-left: 300px;
+    margin-top:-255px;
+  }
+  
+  #volumen {
+    width: 100px; 
+    height: 30px; 
+    font-size: 20px; 
+    background-color: transparent; 
+    color: black;
+    text-align: center;
+    border-radius: 5px; 
+  }
+  
+  
